@@ -14,7 +14,7 @@ class CppIterToolsConan(NxConanFile):
     description = "Range-based for loop add-ons inspired by the Python builtins and itertools library."
 
     def do_source(self):
-        self.retrieve("12b64673078a523afa95e11ceb4f515fc917c5e85c6abeeb224cd69d9ab780c6",
+        self.retrieve("c28b6595b387c11e39c4269af5d4f04c8c91fcb75276192e4597e30578f9883a",
                 [
                     "vendor://google/cppitertools/cppitertools-{v}.tar.gz".format(v=self.version),
                     "https://github.com/hoxnox/cppitertools/archive/{v}.tar.gz".format(v=self.version)
